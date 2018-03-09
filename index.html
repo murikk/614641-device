@@ -41,13 +41,16 @@
 
 <main>
     <section class="product">
-      <img class="product-item" src="img/slider-1.png">
+      <img class="product-item" src="img/slider-1.png" alt="Сэлфи-палка">
       <b>Делай селфи,как Бен Стиллер!</b>
       <p>
       Самая длинная палка для селфи доступна в нашем магазине.<br>
     Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
     </p>
-    <span><a href="#">Подробнее</a></span>
+    <a class="product-more" href="#">Подробнее</a>
+    <span class="product-item-slider"></span>
+    <span class="product-item-slider"></span>
+    <span class="product-item-slider"></span>
     <table class="product-item-description">
       <tr>
             <td>8,5 м</td>
@@ -63,14 +66,17 @@
     </section>
 
      <section class="product">
-      <img class="product-item" src="img/slider-2.png">
+      <img class="product-item" src="img/slider-2.png" alt="Фитнес-браслет">
       <b>Худеем
     правильно!</b>
     <p>
       Мотивирующие фитнес-браслеты помогут найти в себе силы
     не пропускать занятия и соблюдать диету.
     </p>
-    <span><a href="#">Подробнее</a></span>
+    <a class="product-more" href="#">Подробнее</a>
+    <span class="product-item-slider"></span>
+    <span class="product-item-slider"></span>
+    <span class="product-item-slider"></span>
     <table class="product-item-description">
       <tr>
             <td>48 часов</td>
@@ -82,14 +88,17 @@
     </section>
 
     <section class="product">
-      <img class="product-item" src="img/slider-3.png">
+      <img class="product-item" src="img/slider-3.png" alt="Квадрокоптер">
       <b>Порхает как бабочка,
     жалит как пчела!</b>
       <p>
       Этот обычный, на первый взгляд, квадрокоптер оснащен
     мощным лазером, замаскированным под стандартную камеру.
     </p>
-    <span><a href="#">Подробнее</a></span>
+    <a class="product-more" href="#">Подробнее</a>
+    <span class="product-item-slider"></span>
+    <span class="product-item-slider"></span>
+    <span class="product-item-slider"></span>
     <table class="product-item-description">
       <tr>
             <td>800 M</td>
@@ -127,9 +136,9 @@
       </ul>
     </section>
     <ul class="services">
-      <li><button>Доставка</button></li>
-      <li><button>Гарантия</button></li>
-      <li><button>Кредит</button></li>
+      <li><button class="services-button" type="button">Доставка</button></li>
+      <li><button class="services-button" type="button">Гарантия</button></li>
+      <li><button class="services-button" type="button">Кредит</button></li>
     </ul>
 
     <section class="services-about">
@@ -141,10 +150,10 @@
     </section>
 
     <ul class="partners">
-       <li><img src="img/logo-1.png"></li>
-       <li><img src="img/logo-2.png"></li>
-       <li><img src="img/logo-3.png"></li>
-       <li><img src="img/logo-4.png"></li>
+       <li><img src="img/logo-1.png" alt="DJI"></li>
+       <li><img src="img/logo-2.png" alt="SP Gadgets"></li>
+       <li><img src="img/logo-3.png" alt="GoPro"></li>
+       <li><img src="img/logo-4.png" alt="vive"></li>
     </ul>
 
     <section class="about-us">
@@ -156,14 +165,14 @@
         <li>Автотрейдинг</li>
         <li>ЖелДорЭкспедиция</li>
       </ul>
-      <span><a href="#">Подробнее о нас</a></span>
+      <a class="about-us-more" href="#">Подробнее о нас</a>
     </section>
 
     <section>
       <h2>Контакты</h2>
       <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1123749473636!2d37.52742931602769!3d55.68703400452987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sus!4v1520274363794" width="800" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <span>Напишите нам</span>
+          <button class="write-to-us" type="button">Напишите нам</button>
     </section>
 
     </main>
@@ -197,20 +206,26 @@
       <a class="footer-html" href="https://htmlacademy.ru/">ссылка на академию</a>
 
     </footer>
-      <form>
-          <p><b>Ваше имя:</b>
-       <input type="text" >
+      <form class="write-us" action="#" method="post">
+          <p>
+            <label for="write-us-name">Ваше имя:</label>
+       <input id="write-us-name" type="text" placeholder="Имя Фамилия">
       </p>
       <p>
-          <b>Ваш e-mail:</b><br>
-          <input type="text" >
+          <label for="write-us-email">Ваш e-mail</label>
+          <input id="write-us-email" type="text" placeholder="email@example.com">
       </p>
       <p>
-          <b>Текст письма:</b><br>
-          <input type="text" >
+          <label for="write-us-text">Текст письма:</label>
+          <input id="write-us-text" type="text" placeholder="В свободной форме" >
       </p>
-      <button>Отправить</button>
+      <button class="write-us-send" type="submit">Отправить</button>
+      <button class="write-us-close">X</button>
       </form>
+      <div class="map-popup">
+        <img src="img/map-big.jpg" alt="улица Сроителей 15">
+      <button class="map-popup-close">X</button>
+      </div>
 
       </body>
     </html>

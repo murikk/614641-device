@@ -9,12 +9,13 @@
     <h1><a href="index.html">DEVICE</a></h1>
     <section class="header-menu">
 
-    <form class="search">
-    <input type="search">
-    <button></button>
+    <form class="search" action="" method="post">
+      <label for="search-field" class="visually-hidden">Поиск по сайту</label>
+    <input id="search-field" type="search" placeholder="Поиск по сайту" >
+    <button class="seacrh-button" aria-label="Нажать поиск"></button>
     </form>
 
-    <span class="user-name">Валентин Петухов</span>
+    <a href="#" class="user-name">Валентин Петухов</a>
     <ul class="header-menu-small">
         <li><a href="#">Выйти</a></li>
         <li><a href="#">Сравнить</a></li>
@@ -59,40 +60,47 @@
           </ul>
           <button class="up"></button>
           <button class="down"></button>
-          <form class="filter">
-              <b class="price">Стоимость</b>
-              <b class="color">Цвет</b>
+          <form class="filter" action="#" method="post">
+            <fieldset>
+            <p>
+                <label for="filter-price">Стоимость</label>
+                <input type="range" name="range" id="filter-price">
+              </p>
+              </fieldset>
+              <fieldset>
+              <span class="filter-color">Цвет</span>
               <label><input type="checkbox" name="black" >Черный</label>
               <label><input type="checkbox" name="white" >Белый</label>
               <label><input type="checkbox" name="blue" >Синий</label>
               <label><input type="checkbox" name="red" >Красный</label>
               <label><input type="checkbox" name="pink" >Розовый</label>
-
-              <span class="bluetooth">Bluetooth</span>
+              </fieldset>
+              <fieldset>
+              <span class="filter-bluetooth">Bluetooth</span>
               <label><input type="radio" name="yes" сhecked>Есть</label>
               <label><input type="radio" name="no" >Нет</label>
-              <button class="show-items">Показать</button>
-
-          </form>
+              <button class="show-items" type="submit">Показать</button>
+              </fieldset>
+              </form>
           <section class="list">
               <div class="list-item">
                   <img src="img/item-1.jpg" alt="Любительская селфи-палка">
-                  <h3>Любительская селфи-палка</h3>
+                  <h3><a href="#">Любительская селфи-палка</a></h3>
                   <b>500 руб.</b>
               </div>
                  <div class="list-item">
                   <img src="img/item-2.jpg" alt="Профессиональная селфи-палка ">
-                  <h3>Профессиональная селфи-палка </h3>
+                  <h3><a href="#">Профессиональная селфи-палка</a>< </h3>
                   <b>1 500 руб.</b>
               </div>
                  <div class="list-item">
                   <img src="img/item-3.jpg" alt="Непотопляемая селфи-палка">
-                  <h3>Непотопляемая селфи-палка</h3>
+                  <h3><a href="#">Непотопляемая селфи-палка</a></h3>
                   <b>2 500 руб.</b>
               </div>
                  <div class="list-item">
                   <img src="img/item-4.jpg" alt="Селфи-палка «Следуй за мной»">
-                  <h3>Селфи-палка «Следуй за мной»</h3>
+                  <h3><a href="#">Селфи-палка «Следуй за мной»</a></h3>
                   <b>4 900 руб.</b>
               </div>
               <ul class="pages">
