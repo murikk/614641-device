@@ -48,8 +48,9 @@ a {
 
 .header-menu-small a,
 .header-catalog-menu a,
-.option-menu a,
-.catalog-item a {
+.option-menu     a,
+.catalog-item a,
+.about-us-more  {
     color: #000;
 }
 
@@ -138,4 +139,28 @@ a {
     font: inherit;
     vertical-align: middle;
     text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+}
+
+.about-us h2,
+.contacts h2 {
+    font-size: 47px;
+    line-height: 48px;
+}
+
+.about-us p,
+.contacts p {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #464646;
+}
+
+.about-us li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    
 }
