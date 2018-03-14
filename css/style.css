@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'gilroyextrabold';
-    src: url('fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
-         url('fonts/gilroy-extrabold-webfont.woff') format('woff');
+    src: url('../fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'gilroylight';
-    src: url('fonts/gilroy-light-webfont.woff2') format('woff2'),
-         url('fonts/gilroy-light-webfont.woff') format('woff');
+    src: url('../fonts/gilroy-light-webfont.woff2') format('woff2'),
+         url('..//fonts/gilroy-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -35,6 +35,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 .header-menu-small  {
@@ -135,10 +136,10 @@ a {
     list-style: none;
 }
 
-.services-button {
+.services-button,
+.write-to-us{
     font: inherit;
     vertical-align: middle;
-    text-transform: uppercase;
     border: none;
     background-color: transparent;
 }
@@ -163,4 +164,8 @@ a {
     font-weight: 400;
     line-height: 40px;
     
+}
+
+.button {
+    text-transform: uppercase;
 }
