@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'gilroyextrabold';
     src: url('../fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
-         url('../fonts/gilroy-extrabold-webfont.woff') format('woff');
+    url('../fonts/gilroy-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'gilroylight';
     src: url('../fonts/gilroy-light-webfont.woff2') format('woff2'),
-         url('..//fonts/gilroy-light-webfont.woff') format('woff');
+    url('..//fonts/gilroy-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -19,13 +19,13 @@
 body {
     margin: 0;
     padding: 0;
-    
+
     font-family: "Gilroyextrabold", Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
     color: #000000;
-    
-    background-color: #fff;   
+
+    background-color: #fff;
 }
 
 .logo {
@@ -42,20 +42,20 @@ a {
     background-color: #f7e296;
 }
 
-.header-menu-small  {
+.header-menu-small {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 15px;
     line-height: 30px;
     color: #000;
-    
+
     list-style: none;
 }
 
 .header-menu-small a,
 .header-catalog-menu a,
-.option-menu     a,
+.option-menu a,
 .catalog-item a,
-.about-us-more  {
+.about-us-more {
     color: #000;
 }
 
@@ -65,7 +65,7 @@ a {
 }
 
 .header-catalog-menu li {
-      list-style: none;
+    list-style: none;
     background-color: #f7e296;
 }
 
@@ -73,14 +73,14 @@ a {
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
-    color: #000; 
+    color: #000;
 }
 
 .option-menu {
     font-size: 18px;
     line-height: 24px;
     font-weight: bold;
-    
+
     list-style: none;
 }
 
@@ -109,7 +109,7 @@ a {
     font-style: light;
     font-size: 36px;
     line-height: 48px;
-    
+
 }
 
 .product-item-description tr:last-child {
@@ -119,12 +119,12 @@ a {
     color: #464646;
 }
 
-.catalog-item  {
+.catalog-item {
     font-size: 18px;
     line-height: 24px;
-    
+
     list-style: none;
-    
+
 }
 
 .catalog-popular:first-child {
@@ -177,7 +177,7 @@ a {
 
 .services {
     list-style: none;
-    
+
 }
 
 .service {
@@ -221,7 +221,7 @@ a {
     font-size: 16px;
     font-weight: 400;
     line-height: 40px;
-    
+
 }
 
 .button {
@@ -266,7 +266,7 @@ a {
 }
 
 .footer-tel {
-     font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;
     line-height: 30px;
