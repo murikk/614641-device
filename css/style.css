@@ -38,6 +38,10 @@ a {
     color: #000;
 }
 
+.header-main {
+    background-color: #f7e296;
+}
+
 .header-menu-small  {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 15px;
@@ -60,13 +64,16 @@ a {
     line-height: 30px;
 }
 
-.header-catalog-menu {
+.header-catalog-menu li {
+      list-style: none;
+    background-color: #f7e296;
+}
+
+.header-catalog-menu a {
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
-    color: #000;
-    
-    list-style: none
+    color: #000; 
 }
 
 .option-menu {
@@ -120,6 +127,42 @@ a {
     
 }
 
+.catalog-popular:first-child {
+    background-image: url(../img/popular-1.svg);
+    background-repeat: no-repeat;
+    background-color: #f7e296;
+}
+
+.catalog-popular:nth-child(2) {
+    background-image: url(../img/popular-2.svg);
+    background-repeat: no-repeat;
+    background-color: #f7e296;
+}
+
+.catalog-popular:nth-child(3) {
+    background-image: url(../img/popular-3.svg);
+    background-repeat: no-repeat;
+    background-color: #f7e296;
+}
+
+.catalog-popular:nth-child(4) {
+    background-image: url(../img/popular-4.svg);
+    background-repeat: no-repeat;
+    background-color: #f7e296;
+}
+
+.catalog-popular:nth-child(5) {
+    background-image: url(../img/popular-5.svg);
+    background-repeat: no-repeat;
+    background-color: #f7e296;
+}
+
+.catalog-popular:last-child {
+    background-image: url(../img/popular-6.svg);
+    background-repeat: no-repeat;
+    background-color: #f7e296;
+}
+
 .services-about h2 {
     font-size: 47px;
     line-height: 48px;
@@ -134,14 +177,29 @@ a {
 
 .services {
     list-style: none;
+    
+}
+
+.service {
+    background-color: #e5e5e5;
+}
+
+.services-about {
+    background-image: url(../img/delivery.svg);
+    background-repeat: no-repeat;
 }
 
 .services-button,
-.write-to-us{
+.write-to-us,
+.write-us-send {
     font: inherit;
     vertical-align: middle;
     border: none;
     background-color: transparent;
+}
+
+.partners li {
+    list-style: none;
 }
 
 .about-us h2,
@@ -168,4 +226,59 @@ a {
 
 .button {
     text-transform: uppercase;
+}
+
+.footer-main {
+    background-color: #464646;
+}
+
+.footer-adress {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.footer-menu-small li {
+    list-style: none;
+}
+
+.footer-menu-small a {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.footer-menu-main li {
+    list-style: none;
+}
+
+.footer-menu-main a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #464646;
+}
+
+.footer-tel {
+     font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.footer-social {
+    list-style: none;
+}
+
+.write-us label {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
 }
