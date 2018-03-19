@@ -26,10 +26,10 @@ body {
   color: #000000;
 
   background-color: #fff;
-  background-image: url("../img/device-index.jpg");
+  /*background-image: url("../img/device-index.jpg");
     background-repeat: no-repeat;
     background-size: 1440px 2795px;
-    background-position: top center;
+    background-position: top center;*/
 }
 
 .logo {
