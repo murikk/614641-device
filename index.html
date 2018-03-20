@@ -8,49 +8,45 @@
 </head>
 
 <body>
-  <header class="header-main">
-   <nav class="main-navigation">
-     <!--<h1 class="logo">DEVICE</h1>-->
-      <div class="main-navigation-wrapper">
-      <div class="container">
-       <form class="search">
-        <input type="search">
-       <!-- <button></button>-->
-      </form>
-      <ul class="menu-sign-in">
-          <li><a href="#">Войти</a></li>
-      </ul>
-      <ul class="header-menu-small">
+  <header class="header-main container ">
+   <h1><a class="logo">DEVICE</a></h1>
+   <div class="upper-menu">
+     <form class="search" action="" method="post">
+        <label for="search-field" class="visually-hidden">Поиск по сайту</label>
+        <input id="search-field" type="search" placeholder="Поиск по сайту">
+        <button class="seacrh-button" aria-label="Нажать поиск"></button>
+     </form>
+     <div class="header-container">
+         <a href="#" class="user-name">Войти</a>
+          <ul class="header-menu-small">
         <li><a href="#">Сравнить</a></li>
         <li><a href="#">Корзина</a></li>
       </ul>
-       </div>
-       <div class="header-catalog-menu-wrapper">
-       <div class="container">
-        <ul class="catalog-link" >
-        <li><a href="inner.html">Каталог товаров</a></li>
-        </ul>
-        <!-- <ul class="header-catalog-menu">
+     </div>  
+   </div>
+   <nav class="main-navigation upper-menu">
+   <div class="header-catalog">
+        <a class="catalog-link" href="inner.html">Каталог товаров</a>
+        <ul class="header-catalog-menu">
           <li><a href="#">Виртуальная реальность</a></li>
           <li><a href="#">Моноподы для селфи</a></li>
           <li><a href="#">Экшн-камеры</a></li>
           <li><a href="#">Фитнес-браслеты</a></li>
           <li><a href="#">Умные часы</a></li>
           <li><a href="#">Квадрокоптеры</a></li>
-        </ul>-->
-        <ul class="option-menu">
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Гарантия</a></li>
-          <li><a href="#">Контакты</a></li>
-       </ul>
-       </div>
-       </div>
-       </div>
+        </ul>
+      </div>
+      <ul class="option-menu header-container">
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="#" class="option-menu-contacts">Контакты</a></li>
+      </ul>
+   
     </nav>
     </header>
 
 <main>
- <div class="wrapper">
+ <div class="container">
   <section class="product">
    <div class="product-wrapper">
    <div class="product-image">
@@ -78,6 +74,7 @@
      </div>
       </div>
   </section>
+  </div>
   <!---<section class="product">
     <img class="product-item" src="img/slider-2.png" alt="Фитнес-браслет">
     <b>Худеем
@@ -116,7 +113,7 @@
       </tr>
     </table>
   </section>-->
-  <section class="catalog">
+  <section class="catalog container">
     <ul class="catalog-item">
       <li class="catalog-popular">
         <a href="#"><b>Виртуальная реальность</b></a>
@@ -138,7 +135,6 @@
       </li>
     </ul>
   </section>
-  </div>
   
   <div class="service">
    <div class="wrapper">
