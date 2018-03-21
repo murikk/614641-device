@@ -18,7 +18,8 @@
 @font-face {
   font-family: "gilroylight";
   src: url("../fonts/gilroy-light-webfont.woff2") format("woff2"),
-  url("..//fonts/gilroy-light-webfont.woff") format("woff");
+  url("../fonts/gilroy-light-webfont.woff") 
+  format("woff");
   font-weight: normal;
   font-style: normal;
 
@@ -214,6 +215,9 @@ a {
 .services  {
   list-style: none;
   width: 300px;
+    padding-right: 15px;
+    position: relative;
+    top: -20px;
 
 }
 
@@ -222,6 +226,8 @@ a {
     margin: 0;
     padding: 0;
     margin-bottom: 50px;
+    min-height: 280px;
+    outline: 3px solid red;
 }
 
 .services-about {
@@ -366,6 +372,9 @@ a {
   font-size: 47px;
   line-height: 48px;
   letter-spacing: 0.17px;
+    
+    margin: 0;
+    padding: 0;
 }
 
 .navigation-page {
@@ -448,6 +457,10 @@ a {
   letter-spacing: 0.25px;
   
   opacity: 0.2;
+    
+  position: relative;
+    top: -550px;
+    left: 680px;
 }
 
 /* для сетки */
@@ -493,7 +506,7 @@ a {
 .container {
   width: 1160px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 60px;
   outline: 3px solid red;
 }
 
@@ -583,6 +596,7 @@ a {
 .services {
     margin: 0;
     padding: 0;
+    padding-left: 15px;
 }
 
 .wrapp-menu {
@@ -642,7 +656,7 @@ justify-content: space-between;
 
 .partners {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
 }
 
 .about-us {
@@ -656,6 +670,8 @@ justify-content: space-between;
 .info {
     display: flex;
     justify-content: space-between;
+    min-height: 560px;
+    margin-bottom: 85px;
 }
 
 .footer-up {
@@ -706,4 +722,95 @@ justify-content: space-between;
 .footer-html {
     width: 60px;
     margin-left: 400px;
+}
+
+.footer-main .container {
+    min-height: 200px;
+}
+
+.warranty,
+.delivery {
+    padding-bottom: 35px;
+}
+.inner-header .header-main {
+    min-height: 186px;
+    margin-bottom: 40px;
+}
+
+.page-name {
+    min-height: 100px;
+    margin-bottom: 40px;
+}
+
+.navigation {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.devices .container {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 70px;
+}
+
+.filter {
+    width: 300px;
+}
+
+.list {
+    width: 760px;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    outline: 3px solid red;
+    margin-bottom: 70px;
+}
+
+.criteria {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    padding-right: 10px;
+    
+    list-style: none;
+    
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0;
+    padding: 25px 30px;
+    margin-top: 35px;
+    
+    width: 760px;
+    
+
+    
+    min-height: 70px;
+}
+
+.slider {
+    position: relative;
+    top: -1000px;
+    left: 1600px;
 }

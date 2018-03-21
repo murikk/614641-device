@@ -8,9 +8,10 @@
 </head>
 
 <body>
-  <header class="header-main">
+ <div class="inner-header">
+  <header class="header-main container">
     <h1><a class="logo" href="index.html">DEVICE</a></h1>
-    <section class="header-menu">
+    <section class="wrapp-menu">
       <form class="search" action="" method="post">
         <label for="search-field" class="visually-hidden">Поиск по сайту</label>
         <input id="search-field" type="search" placeholder="Поиск по сайту">
@@ -23,7 +24,7 @@
         <li><a href="#">Корзина</a></li>
       </ul>
     </section>
-    <section class="header-menu-main">
+    <nav class="main-navigation wrapp-menu">
       <div class="header-catalog">
         <a class="catalog-link" href="inner.html">Каталог товаров</a>
         <ul class="header-catalog-menu">
@@ -35,22 +36,26 @@
           <li><a href="#">Квадрокоптеры</a></li>
         </ul>
       </div>
-      <ul class="option-menu">
+      <ul class="option-menu header-container">
         <li><a href="#">Доставка</a></li>
         <li><a href="#">Гарантия</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
-    </section>
+      </nav>
   </header>
+    </div>
   
 <main>
+ <div class="page-name container">
   <h2 class="page-title">Моноподы для селфи</h2>
   <ul class="navigation">
     <li class="navigation-previous"><a class="navigation-page" href="index.html">Главная</a></li>
     <li class="navigation-previous"><a class="navigation-page" href="inner.html">Каталог товаров</a></li>
     <li class="navigation-current navigation-page">Моноподы для селфи</li>
   </ul>
- 
+    </div>
+ <div class="devices ">
+ <div class="container">
   <section class="filter">
   <h2 class="criteria-filter">Фильтр</h2>
   <form class="settings" action="#" method="post">
@@ -88,6 +93,7 @@
   <button class="up"></button>
   <button class="down"></button>
   </div>
+   <div class="items">
     <div class="list-item">
       <img src="img/item-1.jpg" alt="Любительская селфи-палка">
       <h3><a href="#">Любительская селфи-палка</a></h3>
@@ -116,32 +122,48 @@
       <li><button class="page-list button">Вперед</button></li>
     </ul>
     <span class="list-item-new">New</span>
+    </div>
 </section>
+   </div>
+    </div>
 </main>
 
-<footer class="footer-main">
-  <div class="footer-info">
+<footer class="footer-main inner">
+ <div class="container">
+  <div class="footer-up">
     <h2>DEVICE</h2>
-  </div>
+  <span class="user-name">Валентин Петухов</span>
   <ul class="footer-menu-small">
     <li><a href="#">Выйти</a></li>
     <li><a href="#">Сравнить</a></li>
     <li><a href="#">Корзина</a></li>
   </ul>
+  </div>
+  <div class="footer-middle">
   <span class="footer-adress">г. Москва, ул. Строителей, 15</span>
   <ul class="footer-menu-main">
     <li><a href="#">Доставка</a></li>
     <li><a href="#">Гарантия</a></li>
     <li><a href="#">Контакты</a></li>
   </ul>
-  <span class="user-name">Валентин Петухов</span>
+  
   <a class="footer-tel" href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
+  </div>
+  <div class="footer-bottom">
   <ul class="footer-social">
     <li><a href="#">Facebook</a></li>
     <li><a href="#">Instagram</a></li>
     <li><a href="#">Twiter</a></li>
   </ul>
   <a class="footer-html" href="https://htmlacademy.ru/">ссылка на академию</a>
+  </div>
+  </div>
 </footer>
 </body>
 </html>
+
+
+<div class="page-name">
+    section filter
+    section list
+</div>
