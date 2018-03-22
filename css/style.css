@@ -64,12 +64,15 @@ a {
 }
 
 .header-menu-small,
-.user-name {
+.user-name,
+.log-out {
   font-size: 15px;
   line-height: 30px;
   color: #000;
   font-weight: 300;
   letter-spacing: 0.1;
+  padding: 0;
+    margin: 0;
    
   list-style: none;
 }
@@ -394,6 +397,13 @@ a {
   line-height: 24px;
   letter-spacing: 0.91px;
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  padding-top: 25px;
+    margin-bottom: 69px;
+    
+  min-height: 70px;
+  outline: 3px solid red;
 }
 
 .criteria-button {
@@ -429,6 +439,9 @@ a {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.18px;
+  padding: 0;
+  margin: 0;
+  padding-top: 27px;
 }
 
 .list-item b {
@@ -506,7 +519,7 @@ a {
 .container {
   width: 1160px;
   margin: 0 auto;
-  padding: 0 60px;
+  padding: 0;
   outline: 3px solid red;
 }
 
@@ -739,7 +752,9 @@ justify-content: space-between;
 
 .page-name {
     min-height: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 37px;
+    
+    padding: 0 60px;
 }
 
 .navigation {
@@ -757,11 +772,12 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
     
+    padding-left: 60px;
     margin-bottom: 70px;
 }
 
 .filter {
-    width: 300px;
+    width: 268px;
 }
 
 .list {
@@ -773,7 +789,6 @@ justify-content: space-between;
     justify-content: space-between;
     min-height: 70px;
     outline: 3px solid red;
-    margin-bottom: 70px;
 }
 
 .criteria {
@@ -783,6 +798,7 @@ justify-content: space-between;
     padding: 0;
     margin: 0;
     padding-right: 10px;
+    padding-top: 25px;
     
     list-style: none;
     
@@ -813,4 +829,23 @@ justify-content: space-between;
     position: relative;
     top: -1000px;
     left: 1600px;
+}
+
+.log-out {
+    padding: 0;
+    margin: 0;
+}
+.criteria-price {
+    margin: 0;
+    padding: 0;
+    min-height: 105px;
+    
+    margin-bottom: 36px;
+}
+
+.criteria-color {
+  margin: 0;
+  padding: 0;
+  min-height: 250px;
+  margin-bottom: 35px;
 }
