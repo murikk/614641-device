@@ -68,7 +68,7 @@
       <input type="range" name="range" id="filter-price">
     </p>
   </fieldset>
-  <fieldset class="criteria-color">
+  <fieldset class="colors">
     <legend class="criteria-color">Цвет</legend>
     <label for="color-box" class="color"><input type="checkbox" name="black"  id="color-box">Черный</label>
     <label for="color-box" class="color"><input type="checkbox" name="white"  id="color-box">Белый</label>
@@ -96,15 +96,20 @@
   <button class="down"></button>
   </div>
    <div class="items">
+     <div class="only-items">
     <div class="list-item">
       <img src="img/item-1.jpg" alt="Любительская селфи-палка">
+      <div class="items-descrip">
       <h3><a href="#">Любительская селфи-палка</a></h3>
       <b>500 руб.</b>
+      </div>
     </div>
     <div class="list-item">
       <img src="img/item-2.jpg" alt="Профессиональная селфи-палка ">
+      <div class="items-descrip">
       <h3><a href="#">Профессиональная селфи-палка</a></h3>
       <b>1 500 руб.</b>
+        </div>
     </div>
     <div class="list-item">
       <img src="img/item-3.jpg" alt="Непотопляемая селфи-палка">
@@ -115,6 +120,7 @@
       <img src="img/item-4.jpg" alt="Селфи-палка «Следуй за мной»">
       <h3><a href="#">Селфи-палка «Следуй за мной»</a></h3>
       <b>4 900 руб.</b>
+    </div>
     </div>
     <ul class="pages">
       <li><button class="page-list button">Назад</button></li>
@@ -134,12 +140,14 @@
  <div class="container">
   <div class="footer-up">
     <h2>DEVICE</h2>
+    <div class="footer-3">
   <span class="user-name">Валентин Петухов</span>
   <ul class="footer-menu-small">
     <li><a href="#">Выйти</a></li>
     <li><a href="#">Сравнить</a></li>
     <li><a href="#">Корзина</a></li>
   </ul>
+    </div>
   </div>
   <div class="footer-middle">
   <span class="footer-adress">г. Москва, ул. Строителей, 15</span>
@@ -153,19 +161,13 @@
   </div>
   <div class="footer-bottom">
   <ul class="footer-social">
-    <li><a href="#">Facebook</a></li>
-    <li><a href="#">Instagram</a></li>
-    <li><a href="#">Twiter</a></li>
+    <li><a class="visually-hidden" href="#">Facebook</a></li>
+    <li><a class="visually-hidden" href="#">Instagram</a></li>
+    <li><a  class="visually-hidden" href="#">Twiter</a></li>
   </ul>
-  <a class="footer-html" href="https://htmlacademy.ru/">ссылка на академию</a>
+  <a class="footer-html visually-hidden" href="https://htmlacademy.ru/">ссылка на академию</a>
   </div>
   </div>
 </footer>
 </body>
 </html>
-
-
-<div class="page-name">
-    section filter
-    section list
-</div>
