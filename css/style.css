@@ -154,7 +154,13 @@ a {
     
   margin: 0;
   padding: 0;
-  padding-bottom: 50px;
+  padding-left: 44px;
+  
+  display: block;
+  background-image: url(../img/button-back.jpg);
+  background-repeat: no-repeat;
+  background-size: 220px 8px;
+  background-position: 0 8px;
 }
 .product-item-description {
     margin-top: 53px;
@@ -365,6 +371,7 @@ a {
 }
 
 .footer-menu-small a {
+  font-family: 
   font-size: 15px;
   line-height: 30px;
   color: #ffffff;
@@ -483,7 +490,6 @@ a {
   letter-spacing: 0.18px;
   padding: 0;
   margin: 0;
-  padding-top: 27px;
 }
 
 .list-item b {
@@ -724,12 +730,13 @@ a {
 .footer-up {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 23px;
 }
 
 .footer-menu-small {
   display: flex;
   justify-content: space-between;
-  width: 299px;
+  width: 323px;
   align-items: flex-start;
   margin: 0;
   padding: 0;
@@ -749,11 +756,14 @@ a {
 .footer-middle {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 52px;
 }
 
 .footer-menu-main {
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
   
   width: 440px;
 }
@@ -774,7 +784,9 @@ a {
 
 .footer-html {
   width: 60px;
+  height: 60px;
   margin-left: 400px;
+  position: relative;
 }
 
 .footer-main .container {
@@ -850,10 +862,13 @@ a {
 .pages {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   margin: 0;
   padding: 14px 25px;
   width: 760px;
   min-height: 70px;
+    
+  background-color: #ebebeb;
 }
 
 .slider {
@@ -895,11 +910,11 @@ a {
 }
 
 .list-item {
-  margin-bottom: 70px;
+  margin-bottom: 39px;
 }
 
 .inner {
-  margin-top: 45px;
+  margin-top: 54px;
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -921,6 +936,13 @@ a {
 .items-descrip {
   display: flex;
   justify-content: space-between;
+  margin-top: 27px;
+}
+
+.items-descrip h2 {
+  margin: 0;
+  padding: 0;
+  width: 260px
 }
 
 .footer-3 {
@@ -991,6 +1013,86 @@ a {
   width: 365px;
 }
 
-.footer {
-    
+.footer-html::after {
+  content: "";
+  position: absolute;
+  
+  top: 10px;
+  left: 24px;
+  width: 27px;
+  height: 35px;
+  background-image: url("../img/logo-html.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;   
+}
+
+.fb,
+.insta,
+.tw {
+  position: relative;
+  width: 50px;
+  height: 45px;
+}
+
+.fb::after {
+    content: "";
+  position: absolute;
+  
+  top: 10px;
+  left: 50px;
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/fb.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;   
+}
+
+.insta::after {
+  content: "";
+  position: absolute;
+  
+  top: 10px;
+  left: -16px;
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/instagram.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;     
+}
+
+.tw::after {
+  content: "";
+  position: absolute;
+  
+  top: 10px;
+  right: 50px;
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/twitter.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;       
+}
+
+.pages-numbers {
+  display: flex;
+  justify-content: space-around;
+  width: 146px;
+  margin: 0;
+  padding: 0;
+  padding: 0 20px;
+}
+
+.inner .footer-3 {
+  width: 480px;
+  justify-content: space-between;
+}
+
+.inner .sign-out {
+  margin-left: -28px;
+}
+
+.footer-3 {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
 }
