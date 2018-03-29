@@ -232,23 +232,28 @@
   </footer>
       
   <form class="write-us" action="#" method="post">
-    <p>
+   <div class="form-container">
+    <p class="form-name form-info">
       <label for="write-us-name">Ваше имя:</label>
       <input id="write-us-name" type="text" placeholder="Имя Фамилия">
     </p>
-    <p>
+    <p class="form-email form-info">
       <label for="write-us-email">Ваш e-mail</label>
        <input id="write-us-email" type="text" placeholder="email@example.com">
     </p>
-    <p>
+    <p class="form-text">
        <label for="write-us-text">Текст письма:</label>
-       <input id="write-us-text" type="text" placeholder="В свободной форме" >
+        <textarea id="write-us-text" type="text" rows="10">В свободной форме</textarea>
     </p>
       <button class="write-us-send button" type="submit">Отправить</button>
-      <button class="write-us-close ">X</button>
-  </form>
-  <div class="map-popup">
+      <button class="modal-close">X</button>
+      </div>
+ 
+   </form>
+   
+     <div class="map-popup">
     <img src="img/map-big.jpg" alt="улица Сроителей 15"><button class="map-popup-close">X</button>
+    
   </div>
 
 </body>
