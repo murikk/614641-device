@@ -893,8 +893,16 @@ a {
   margin: 0;
   padding: 0;
   min-height: 105px;
+  border: none;
+  border-top: 2px solid black;
+  width: 201px;
   
   margin-bottom: 36px;
+}
+
+.criteria-price p {
+  padding: 0;
+  margin: 0;
 }
 
 .colors {
@@ -902,14 +910,78 @@ a {
   padding: 0;
   min-height: 250px;
   margin-bottom: 35px;
-  
+  border: none;
+  border-top: 2px solid black;
+  width: 201px;
   display: flex;
+}
+
+.colors p {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  align-content: space-between
+  
+}
+
+.colors label {
+  padding-bottom: 10px;
 }
 
 .criteria-blue {
-  display: flex;
+  width: 201px;
+  border: none;
+  border-top: 2px solid black;
+  margin: 0;
+  padding: 0;
 }
 
+.criteria-blue p {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+
+}
+
+.criteria-blue p,
+.colors p,
+.criteria-price p {
+  padding-top: 13px;
+}
+.criteria-blue legend,
+.colors legend,
+.criteria-price legend {
+ padding-bottom: 27px;
+}
+
+.color-checkbox {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.color-checkbox input[type="checkbox"] + .checkbox-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 23px;
+  height: 23px;
+  border: 2px solid #000000;
+  border-radius: 20%;
+}
+
+.color-checkbox input[type="checkbox"]:checked +.checkbox-indicator::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background-image: url(../img/tick.svg);
+  width: 12px;
+  height: 7px;
+    
+}
 .only-items {
   display: flex;
   justify-content: space-between;

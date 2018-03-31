@@ -69,19 +69,32 @@
     </p>
   </fieldset>
   <fieldset class="colors">
+   <p>
     <legend class="criteria-color">Цвет</legend>
-    <label for="color-box" class="color"><input type="checkbox" name="black"  id="color-box">Черный</label>
-    <label for="color-box" class="color"><input type="checkbox" name="white"  id="color-box">Белый</label>
-    <label for="color-box" class="color"><input type="checkbox" name="blue"  id="color-box">Синий</label>
-    <label for="color-box" class="color"><input type="checkbox" name="red" id="color-box" >Красный</label>
-    <label for="color-box" class="color"><input type="checkbox" name="pink"  id="color-box">Розовый</label>
+    <label for="color-box" class="color-checkbox"><input type="checkbox" name="black"  id="color-box" class="visually-hidden">
+    <span class="checkbox-indicator"></span>
+    Черный</label><label for="color-box" class="color-checkbox"><input type="checkbox" name="white"  id="color-box" class="visually-hidden">
+    <span class="checkbox-indicator"></span>
+    Белый</label><label for="color-box" class="color-checkbox"><input type="checkbox" name="blue"  id="color-box" class="visually-hidden">
+    <span class="checkbox-indicator"></span>
+    Синий</label>
+    <label for="color-box" class="color-checkbox"><input type="checkbox" name="red" id="color-box"  class="visually-hidden">
+    <span class="checkbox-indicator"></span>
+    Красный</label>
+    <label for="color-box" class="color-checkbox"><input type="checkbox" name="pink"  id="color-box" class="visually-hidden">
+    <span class="checkbox-indicator"></span>
+    Розовый</label>
+    </p>
   </fieldset>
   <fieldset class="criteria-blue">
+   <p>
     <legend>Bluetooth</legend>
     <label><input type="radio" name="yes" сhecked>Есть</label>
     <label><input type="radio" name="no" >Нет</label>
-    <button class="show-items button" type="submit">Показать</button>
+    
+    </p>
   </fieldset>
+  <button class="show-items button" type="submit">Показать</button>
   </form>
   </section>
   <section class="list">
